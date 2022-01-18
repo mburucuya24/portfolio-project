@@ -1,0 +1,66 @@
+:root {
+  --branding-color: #475f46;
+  --heading-font-color: #343d33;
+  --default-font-color: #414840;
+  --heading-font-family: "Libre Baskerville", serif;
+  --default-font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 84px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--heading-font-color);
+}
+
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--default-font-color);
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--default-font-color);
+}
+
+.btn-branding {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid var(--branding-color);
+  border-radius: 0;
+  padding: 20px 40px;
+  margin: 0 10px;
+}
+
+.about-button {
+  background: var(--branding-color);
+  color: #fff;
+}
+
+.work-button {
+  background: #fff;
+  color: var(--branding-color);
+}
