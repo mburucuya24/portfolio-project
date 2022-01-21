@@ -46,16 +46,16 @@ h1 {
   color: var(--tertiary-color);
 }
 
-.about-section {
+.content-container {
   padding: 160px 40px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.25;
 }
 
-.about-section h2 {
+.content h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
 }
@@ -67,6 +67,26 @@ h1 {
 .profile-photo {
   max-width: 100%;
   height: auto;
+}
+
+.work-page {
+  padding: 160px 80px;
+}
+
+.work-page h1 {
+  text-align: center;
+}
+
+.work-page h2 {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  color: var(--branding-color);
+}
+
+.work-connect-section {
+  flex: 1;
+  text-align: center;
+  margin: 100px 0 0;
 }
 
 .btn-branding {
@@ -84,10 +104,15 @@ h1 {
   color: #fff;
 }
 
-.connect-button {
+.home-connect-button {
   background: #fff;
   color: var(--branding-color);
   padding: 20px 43px;
+}
+
+.learn-more-button {
+  color: #fff;
+  border: 1px solid white;
 }
 
 .work-button {
@@ -95,6 +120,19 @@ h1 {
   color: #fff;
   padding: 20px 43px;
   margin: 10px 0;
+}
+
+.launch-button {
+  background: #fff;
+  color: var(--branding-color);
+  padding: 20px 43px;
+  margin: 10px 0;
+}
+
+.connect-button {
+  background: var(--branding-color);
+  color: #fff;
+  padding: 20px 100px;
 }
 
 .projects {
@@ -113,11 +151,6 @@ h1 {
   height: auto;
 }
 
-.learn-more-button {
-  color: #fff;
-  border: 1px solid white;
-}
-
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
@@ -131,12 +164,12 @@ h1 {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 80px 40px;
   }
 
-  .about-section h1 {
+  .content h1 {
     font-size: 56px;
   }
 
