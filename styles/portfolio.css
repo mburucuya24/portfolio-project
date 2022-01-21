@@ -46,6 +46,29 @@ h1 {
   color: var(--tertiary-color);
 }
 
+.about-section {
+  padding: 160px 40px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.25;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.profile-pic {
+  padding: 0 0 0 70px;
+}
+
+.profile-photo {
+  max-width: 100%;
+  height: auto;
+}
+
 .btn-branding {
   font-size: 14px;
   font-weight: 700;
@@ -61,10 +84,17 @@ h1 {
   color: #fff;
 }
 
-.work-button {
+.connect-button {
   background: #fff;
   color: var(--branding-color);
   padding: 20px 43px;
+}
+
+.work-button {
+  background: var(--branding-color);
+  color: #fff;
+  padding: 20px 43px;
+  margin: 10px 0;
 }
 
 .projects {
@@ -99,5 +129,18 @@ h1 {
 
   .projects {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 80px 40px;
+  }
+
+  .about-section h1 {
+    font-size: 56px;
+  }
+
+  .profile-pic {
+    padding: 40px 0;
   }
 }
