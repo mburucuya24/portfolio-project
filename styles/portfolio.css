@@ -27,6 +27,22 @@ h1 {
   color: var(--accent-color);
 }
 
+.navbar-brand {
+  font-family: var(--default-font-family);
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .hero {
   text-align: center;
   padding: 200px 20px 160px;
