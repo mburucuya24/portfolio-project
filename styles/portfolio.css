@@ -207,6 +207,10 @@ footer .social-links a {
     font-size: 36px;
   }
 
+  footer p {
+    font-size: 14px;
+  }
+
   .projects {
     padding: 80px 20px;
   }
