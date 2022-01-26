@@ -31,17 +31,13 @@ footer {
   background: var(--accent-color);
 }
 
-footer a {
+footer a,
+footer p {
   color: #fff;
 }
 
 footer a:hover {
   color: var(--branding-color);
-}
-
-footer .email-link {
-  text-decoration: none;
-  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a {
@@ -126,6 +122,18 @@ footer .social-links a {
   flex: 1;
   text-align: center;
   margin: 100px 0 0;
+}
+
+.contact-page {
+  padding: 160px;
+}
+
+.contact-page a {
+  color: var(--branding-color);
+}
+
+.contact-page a:hover {
+  color: var(--accent-color);
 }
 
 .btn-branding {
