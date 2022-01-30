@@ -118,6 +118,33 @@ footer .social-links a {
   color: var(--branding-color);
 }
 
+.work-page h3 {
+  text-align: center;
+  font-size: 48px;
+  margin: 120px auto 50px;
+}
+
+.skills-icons {
+  text-align: center;
+  font-size: 64px;
+}
+
+.skills-icons i {
+  padding: 0 20px;
+}
+
+.logos {
+  padding: 0 16px;
+}
+
+.fa-bootstrap {
+  color: #7853b2;
+}
+
+.fa-invision {
+  color: #ff3366;
+}
+
 .work-connect-section {
   flex: 1;
   text-align: center;
